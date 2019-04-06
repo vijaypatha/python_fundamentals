@@ -40,13 +40,13 @@ factorize(5)
 
 # v2
 
-def factorize(num):
+def factorin(num):
 	lst = []
 	for i in range(1,num+1):
 		if num % i == 0:
 			lst.append(i)
 	print(lst)
-factorize(40)
+factorin(40)
 
 
 
@@ -56,6 +56,6 @@ def prime_num(num):
 			print(num, "is not a prime")
 	else:
 		print(num, "is a prime")
-prime_num(19)
+prime_num(12239)
 
 #Problem 6: Create a function that adds a string ending to each member in a list.

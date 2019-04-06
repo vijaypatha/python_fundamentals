@@ -3,4 +3,4 @@ def prime_num(num):
 			print(num, "is not a prime")
 	else:
 		print(num, "is a prime")
-prime_num(19)
+prime_num(12239)
