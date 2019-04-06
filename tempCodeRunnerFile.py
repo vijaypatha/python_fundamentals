@@ -1,6 +1,2 @@
-def prime_num(num):
-	if num % 2 == 0:
-			print(num, "is not a prime")
-	else:
-		print(num, "is a prime")
-prime_num(12239)
+d = dict(foo=100, bar=200, baz=300)
+print(d)
