@@ -1,7 +1,6 @@
-num = 4
-if num > 1:
-	for i in range(2, num):
-		if (num % i == 0):
-			print(num, "is not a prime")
-	else:
-		print(num, "is prime")
+def odd_repeats(lst):
+    for i in lst:
+        lst.count(i % 2 !=0) # any_list.count -> counts returns the number of occurrences 
+        print(i)
+lst = [1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]
+odd_repeats(lst)
