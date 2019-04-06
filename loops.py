@@ -58,4 +58,4 @@ def prime_num(num):
 		print(num, "is a prime")
 prime_num(12239)
 
-#Problem 6: Create a function that adds a string ending to each member in a list.
+
