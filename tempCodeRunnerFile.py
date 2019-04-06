@@ -1,6 +1,6 @@
-def odd_repeats(lst):
-    for i in lst:
-        lst.count(i % 2 !=0) # any_list.count -> counts returns the number of occurrences 
-        print(i)
-lst = [1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]
-odd_repeats(lst)
+def prime_num(num):
+	if num % 2 == 0:
+			print(num, "is not a prime")
+	else:
+		print(num, "is a prime")
+prime_num(19)

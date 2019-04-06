@@ -23,12 +23,12 @@ for name in names:
 
 # Problem 3: Create a function that takes a list and finds the integer which appears an odd number of times.
 # Example: find_odd([1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]) ➞ -1
-def odd_repeats(lst):
+def odd_repeats(lst = []):
     for i in lst:
         lst.count(i % 2 !=0) # any_list.count -> counts returns the number of occurrences 
         print(i)
-lst = [1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]
-odd_repeats(lst)
+items = [1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]
+odd_repeats(items)
 
 
 #Problem  4: Find factors of a number 
@@ -36,16 +36,26 @@ def factorize(num):
 	for i in range(1, num + 1):
 		if num % i == 0:
 			print(i)
+factorize(5)
+
+# v2
+
+def factorize(num):
+	lst = []
+	for i in range(1,num+1):
+		if num % i == 0:
+			lst.append(i)
+	print(lst)
 factorize(40)
 
-########################### Check  Problem 5 ######################################
-########################### Check Problem 5 ######################################
+
 
 #Problem 5: Create a function that returns True if a number is prime and False if it's not
-num = 4
-if num > 1:
-	for i in range(2, num):
-		if (num % i == 0):
+def prime_num(num):
+	if num % 2 == 0:
 			print(num, "is not a prime")
 	else:
 		print(num, "is a prime")
+prime_num(19)
+
+#Problem 6: Create a function that adds a string ending to each member in a list.
