@@ -121,4 +121,3 @@ for key, value in basket_items.items():
         non_fruit_count += value
 print("Total Fruits", fruits_count)
 print("Total non-fruits", non_fruit_count)
-
