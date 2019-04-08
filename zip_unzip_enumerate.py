@@ -48,6 +48,16 @@ letters = ['a', 'b', 'c', 'd', 'e']
 for index, letter in enumerate(letters):
     print(index, letter)
 
+
+daily_chores = ["eat", "sleep", "repeat"]
+
+for chore in enumerate(daily_chores):
+    print (chore)
+# chaning the counter to start at 300
+for chore in enumerate(daily_chores,300):
+    print (chore)
+
+
 # STRING 
 animal = "dog"
 action = "bite"

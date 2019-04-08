@@ -1,10 +1,7 @@
-players = [ "Sachin", "Sehwag", "Gambhir", "Dravid", "Raina" ] 
-scores = [100, 15, 17, 28, 43 ] 
+daily_chores = ["eat", "sleep", "repeat"]
 
-#print(list(zip(players, scores)))
-lists = []
-for lst in zip(players, scores):
-    lists.append(lst)
+for chore in enumerate(daily_chores):
+    print (chore)
 
-for lst in lists:
-    print(lst)
+for chore in enumerate(daily_chores,300):
+    print (chore)
