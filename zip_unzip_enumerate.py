@@ -64,3 +64,34 @@ action = "bite"
 print("Does your {} {}?".format(animal, action))
 
 print("does your {} {}?".format(animal, action))
+
+''' Map function 
+
+
+'''
+
+#Proble 1
+
+# Return double of n 
+def addition(n): 
+    return(n + n)  
+  
+# We double all numbers using map() 
+numbers = (1, 2, 3, 4)
+result = map(addition, numbers) 
+print(list(result))
+
+
+
+numbers = [
+              [34, 63, 88, 71, 29],
+              [90, 78, 51, 27, 45],
+              [63, 37, 85, 46, 22],
+              [51, 22, 34, 11, 18]
+           ]
+
+def mean(num_list):
+    return sum(num_list) / len(num_list)
+
+averages = list(map(mean, numbers))
+print(averages)
