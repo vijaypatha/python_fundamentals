@@ -1,8 +1,5 @@
-# Return double of n 
-def addition(n): 
-    return(n + n)  
-  
-# We double all numbers using map() 
-numbers = (1, 2, 3, 4)
-result = map(addition, numbers) 
-print(list(result))
+cities = ["New York City", "Los Angeles", "Chicago", "Mountain View", "Denver", "Boston"]
+
+def is_short(name):
+    return len(name) < 10
+print(name)
