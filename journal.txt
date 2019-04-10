@@ -1,0 +1,10 @@
+From the examples ive practiced, it seems Loops, Functions, dictionaries seems to pretty straight forward. The concept and syntax, i mean. However, the problems and scope is very complicated. There is so much to learn and becoming good at it is the matter of practice and feedback. 
+
+SO how do i get good at this vast subject? and what is good enough? I dont want to be developer for sure, So i dont have to be really good at every ascpet of coding. 
+
+What aspect of coding should i focus on? 
+
+For a product manager for AI, what is good python skill set? 
+1. Data Analysis 
+2. Numpy, Pands, matplotlib
+3. neural networks
